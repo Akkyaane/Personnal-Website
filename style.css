@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+    font-family: "Manrope", Arial, Helvetica, Sans-serif;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+/*Barre de navigation*/
+
+header {
+    background-image: url(contenu/images/matt-hardy-6ArTTluciuA-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    color: #fff;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav div img {
+    border: solid #fff;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 80px;
+    width: 80px;
+}
+
+nav div h1 {
+    font-size: 23px;
+    padding-left: 15px;
+}
+
+nav div span {color: #c2f8ff;}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav ul li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0px 13.5px;
+}
+
+nav ul li a {
+    background: linear-gradient(to top, rgba(194, 248, 255, 1) 0%, rgba(194, 248, 255, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .3s;
+}
+
+nav ul li a:hover {background-size: 100% 100%;}
+
+/*Accueil*/
+
+.home {
+    background-image: url(contenu/images/matt-hardy-6ArTTluciuA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loop1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.loop1 h2 {
+    font-size: 30px;
+    font-weight: 100; 
+}
+
+.loop2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.loop2 p {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    width: 100vw;
+}
+
+.home button {
+    background: linear-gradient(to top, rgba(194, 248, 255, 1) 0%, rgba(194, 248, 255, 1) 100%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .3s;
+    border: solid #fff;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 15vw;
+}
+
+.home button a {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.home button:hover {background-size: 100% 100%;}
+
+/*À propos*/
+
+.about {
+    background-image: url(contenu/images/matt-hardy-6ArTTluciuA-unsplash1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    height: 100vh;
+    width: 100vw;
+}
+
+.picture img {
+    border: solid 15px;
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 550px;
+    width: 450px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 450px;
+    transition: 0.3s;
+    width: 650px;
+}
+
+.card:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+
+.content {
+    font-size: 17px;
+    text-align: justify;
+    padding: 20px 30px;
+}
+
+.content h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.cv {
+    background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .3s;
+    border: solid #000;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    margin: 0 5px;
+    width: 10vw;
+}
+
+.cv a {
+    color: #000;
+    font-size: 17px;
+    padding: 3px;
+}
+
+.link1,
+.link2 {
+    background-color: transparent;
+    border: none;
+    width: 5vw;
+}
+
+.link2 {margin-left: -15px;}
+
+.button2 img {
+    height: 40px;
+    width: 40px;
+}
+
+.cv:hover {background-size: 100% 100%;}
+
+.cv:hover > a {color: #fff;}
+
+/* Compétences */
+
+.skills {
+    background-image: url(contenu/images/imattsmart-kigHD-rVJzA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: solid #ffffff 2px;
+    box-sizing: border-box;
+    color: #000;
+    font-weight: 900;
+    height: 100vh;
+    padding: 0 300px;
+    width: 100vw;
+}
+
+.skills h3 {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.container {
+    border: solid #000;
+    background-color: #ddd;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    margin: -8.5px;
+    width: 100%;
+}
+
+.skills1 {
+  color: #fff;
+  text-align: center;
+}
+
+.html {
+    background-color: #000; 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    width: 60%; 
+}
+
+.css { 
+    background-color: #000; 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    width: 60%;
+}
+
+.js { 
+    background-color: #000; 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    width: 25%;
+}
+
+.java { 
+    background-color: #000; 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    width: 20%;
+}
+
+.python {
+    background-color: #000; 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    width: 5%; 
+}
+
+.php {
+    background-color: #000; 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    width: 5%; 
+}
+
+.mysql {
+    background-color: #000; 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    width: 10%; 
+}
+
+/* Portfolio */ 
+
+::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(contenu/images/nick-jones-uRuLv7yBnD8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: solid #ffffff 2px;
+    height: auto;
+    padding: 100px 0;
+    width: 100vw;
+}
+
+.background-grid {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.portfolio h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    box-sizing: border-box;
+    grid-gap: 20px;
+    height: auto;
+    margin: 50px auto;
+    max-width: 1300px;
+    width: 85%;
+}
+
+.grid-items {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 400px;
+    width: 300px;
+}
+
+.grid-items img {
+    border: #ffffff solid 2px;
+    height: 400px;
+    width: 300px;
+}
+
+.grid-items img:hover {opacity: 0.9;}
+
+.item1,
+.item7 {grid-column: span 2;}
+
+.item1 img,
+.item7 img {
+    height: 400px;
+    width: 620px;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(contenu/images/solen-feyissa-LBNJi8qHIbA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    border-top: solid #ffffff 1px;
+}
+
+.contact1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    width: 350px;
+}
+
+.contact1 span {
+    color: #e11212;
+}
+
+.contact h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    background: #fff;
+    border: solid #000 1px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea {
+    background: #fff;
+    border: solid #000 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    max-height: 200px;
+    min-height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(contenu/images/solen-feyissa-LBNJi8qHIbA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10vh;
+    width: 100vw;
+}
+
+.copyright {
+    background: transparent;
+    padding-left: 50px;
+}
+
+.button3 img {
+    height: 40px;
+    width: 40px;
+}
+
+.button3 {padding-right: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#93f3ff*/
+
+ {
+    
+    border: solid black;
+}

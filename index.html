@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jérémie Bayon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Header-->
+
+    <header>
+        <nav>
+            <div>
+                <img src="contenu/images/logo.png" alt="Logo">
+                <h1>JÉRÉMIE <span>BAYON</span></h1>
+            </div>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Accueil-->
+
+    <section class="home" id="home">
+        <div class="loop1">
+            <h2><span id="bienvenue"></span></h2>
+            <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed("#bienvenue", {
+                strings: ["Bienvenue"],
+                typeSpeed: 100,
+                });
+            </script>
+        </div>
+        <div class="loop2">
+            <p>Je suis <span id="element"></span></p>
+            <script>
+                var typed = new Typed("#element", {
+                strings: ["Jérémie Bayon.", "étudiant en informatique.", "à la recherche d'une alternance."],
+                typeSpeed: 60,
+                backSpeed: 5,
+                loop: true,
+                });
+            </script>
+        </div>
+        <div class="button1">
+            <button>
+                <a href="#contact">Me contacter</a>
+            </button>
+        </div>
+    </section>
+
+    <!--À propos-->
+
+    <section class="about" id="about">
+        <div class="picture">
+            <img src="contenu/images/DSC_0015.JPG" alt="Photo">
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>Qui suis-je ?</h3>
+                    <p>
+                        Je suis actuellement étudiant en informatique à Maestris BTS (Campus Sciences U Lyon) et prépare un Brevet de Technicien Supérieur - Services Informatiques aux Organisations (Option Solutions Logicielles et Applications Métiers) depuis septembre 2022. J'ai également préparé une licence Langues Étrangères Appliquées (Anglais et Russe) à l'Université Jean Moulin - Lyon 3 pendant quatre ans, que j'ai obtenu en juin 2022. Après le BTS, je souhaiterais continuer mes études en intégrant un Bachelor puis un Mastère en Ingénierie du Web à l'ESGI (Campus Sciences U Lyon), dans le cadre de mon projet de devenir développeur web / mobile (et pourquoi pas à l'étranger). Pour en savoir plus à mon propos, n'hésitez pas à consulter mon CV.
+                    </p>
+            </div>
+            <div class="button2">
+                <button class="cv">
+                    <a href="../contenu/fichiers/curriculum_vitae_fr.pdf" target="_blank">Télécharger CV</a>
+                </button>
+                <button class="cv">
+                    <a href="../contenu/fichiers/curriculum_vitae_en.pdf" target="_blank">Download CV</a>
+                </button>
+                <button class="link1">
+                    <a href="https://www.linkedin.com/in/jeremiebayon/"><img src="contenu/images/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="Logo LinkedIn"></a>
+                </button>
+                <button class="link2">
+                    <a href="https://github.com/Akkyaane"><img src="contenu/images/github_PNG40.png" alt="Logo GitHub"></a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Compétences-->
+
+    <section class="skills" id="skills">
+        <h3><span id="skills2"></span></h3>
+        <script>
+            var typed = new Typed("#skills2", {
+            strings: ["Compétences"],
+            typeSpeed: 250,
+            backSpeed: 200,
+            loop: true,
+            });
+        </script>
+        <p>HTML</p>
+        <div class="container">
+          <div class="skills1 html">60%</div>
+        </div>
+        
+        <p>CSS</p>
+        <div class="container">
+          <div class="skills1 css">60%</div>
+        </div>
+        
+        <p>JavaScript</p>
+        <div class="container">
+          <div class="skills1 js">25%</div>
+        </div>
+        
+        <p>Java</p>
+        <div class="container">
+          <div class="skills1 java">20%</div>
+        </div>
+
+        <p>Python</p>
+        <div class="container">
+          <div class="skills1 python">5%</div>
+        </div>
+
+        <p>PHP</p>
+        <div class="container">
+          <div class="skills1 php">5%</div>
+        </div>
+
+        <p>MySQL</p>
+        <div class="container">
+          <div class="skills1 mysql">10%</div>
+        </div>
+    </section>
+
+    <!--Portfolio-->
+    
+    <section class="portfolio" id="portfolio">
+        <div class="background-grid">
+            <h3><span id="portfolio1"></span></h3>
+            <script>
+                var typed = new Typed("#portfolio1", {
+                strings: ["Portfolio"],
+                typeSpeed: 250,
+                backSpeed: 200,
+                loop: true,
+                });
+            </script>
+            <div class="grid">
+                <div class="grid-items item1"><a href="contenu/images/IMG_8372.jpeg"><img src="contenu/images/IMG_8372.jpeg" alt=""></a></div>
+                <div class="grid-items item2"><a href="contenu/images/2010253.jpeg"><img src="contenu/images/2010253.jpeg" alt=""></a></div>
+
+                <div class="grid-items item3"><a href="contenu/images/2020147.jpeg"><img src="contenu/images/2020147.jpeg" alt=""></a></div>
+                <div class="grid-items item4"><a href="contenu/images/2010262.jpeg"><img src="contenu/images/2010262.jpeg" alt=""></a></div>
+                <div class="grid-items item5"><a href="contenu/images/2020229.jpeg"><img src="contenu/images/2020229.jpeg" alt=""></a></div>
+
+                <div class="grid-items item6"><a href="contenu/images/IMG_8600.jpeg"><img src="contenu/images/IMG_8600.jpeg" alt=""></a></div>
+                <div class="grid-items item7"><a href="contenu/images/IMG_9340.jpeg"><img src="contenu/images/IMG_9340.jpeg" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+
+    <section class="contact" id="contact">
+        <div class="contact1">
+            <h3>Formulaire de contact</h3>
+            <form action="" name="contact">
+                <div>
+                    <label for="lastName"><span>*</span>Nom : </label>
+                    <input type="text" name="lastName" required>
+                </div>
+                <div>
+                    <label for="firstName"><span>*</span>Prénom : </label>
+                    <input type="text" name="firstName" required>
+                </div>
+                <div>
+                    <label for="email"><span>*</span>E-mail : </label><input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phoneNumber"><span>*</span>Téléphone : </label><input type="tel" name="phoneNumber" required>
+                </div>
+                <div>
+                    <label for="message"><span>*</span>Message : </label>
+                    <textarea name="message" id="message" required></textarea><br>
+                </div>
+                <div>
+                    <input type="submit" name="button" value="Envoyer">
+                </div>
+            </form>  
+        </div>   
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>Copyright 2023 J. BAYON</p>
+        </div>
+        <div class="button3">
+            <button class="link1">
+                <a href="https://www.linkedin.com/in/jeremiebayon/"><img src="contenu/images/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="Logo LinkedIn"></a>
+            </button>
+            <button class="link2">
+                <a href="https://github.com/Akkyaane"><img src="contenu/images/github_PNG40.png" alt="Logo GitHub"></a>
+            </button>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+<!--<div>
+        <h3>Who am I ?</h3>
+            <p>
+                I'm currently studying in IT at Maestris BTS (Sciences U Lyon Campus) since September 2022 in order to get a Bachelor specialized in developing applications and websites. I also got a Licence in foreign languages (English and Russian) in June 2022 that I prepared during four years at Jean Moulin University. I would like to continue studying by preparing another Bachelor and a Master in IT (web developement) at ESGI (Sciences U Lyon Campus) in order to become a web / mobile developer (and why not working abroad). If you would like to know more about me, feel free to consult my CV.
+            </p>
+    </div>
+    <div>
+        <h3>Pourquoi l'informatique ?</h3>
+            <p>
+                Lorsque j'ai utilisé un ordinateur pour la première fois, j'avais 8 ans. C'est à partir de ce moment-là que mon intérêt pour l'informatique et les technologies en général a commencé à se développer. À 14 ans, mes parents m'ont offert ma première tour, que j'ai démonté et remonté maintes fois. Et me voici, à 22 ans, à créer mon premier site web. Les jeux vidéos, l'informatique et la technologie sont des domaines qui me passionnent, des domaines que j'ai toujours voulu appronfondir. 
+            </p>
+    </div>
+    <div>
+        <h3>Why did I choose to study IT ?</h3>
+            <p>
+                When I was 8 years old, I used for the first time a computer. It was at this moment I began to develop some interets for IT and technology in general. At 14, my parents bought me my first PC that I disassembled and reassembled many times. And here I am, creating my first website at 22 years old. I really like those fields including video games and I always wanted to know more about them.
+            </p>
+    </div>-->
